@@ -16,7 +16,8 @@ function App() {
       // 必要なら他のフィールドもここで拾う
     };
 
-    console.log("送信されたデータ：", formData);
+    console.log("送信されたデータ：", JSON.stringify(formData, null, 2));
+
   
       fetch("https://personalinformationformback-6.onrender.com/api/personal-info"
 , {
@@ -64,7 +65,7 @@ function App() {
       ) : (
         <>
           <h1 style={{ fontSize: "40px" }}>
-            ゴリゴリコーディング株式会社
+            GGC株式会社
             <br />
             個人情報入力フォーム
           </h1>
@@ -167,7 +168,7 @@ function App() {
               <option value="メール">メール</option>
               <option value="電話">電話</option>
               <option value="LINE">LINE</option>
-              <option value="その他">その他</option>
+              <option value="ハト">ハト</option>
             </select>
 
             <label>連絡可能時間帯</label>
