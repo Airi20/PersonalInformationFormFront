@@ -18,7 +18,8 @@ function App() {
 
     console.log("送信されたデータ：", formData);
   
-      fetch('http://localhost:8080/api/personal-info', {
+      fetch("https://personalinformationformback-6.onrender.com/api/personal-info"
+, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
