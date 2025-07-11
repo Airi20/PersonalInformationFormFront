@@ -43,7 +43,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/personal-info")
+    fetch("https://personalinformationformback-6.onrender.com/api/personal-info")
       .then((res) => res.json())
       .then((json) => setData(json))
       .catch((e) => console.error(e));
