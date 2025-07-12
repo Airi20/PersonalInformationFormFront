@@ -208,7 +208,7 @@ function App() {
             <textarea name="selfPR" placeholder="自分の強みや経験をアピールしてください" rows="4"></textarea>
 
             <label>希望職種</label>
-            <select id="desireJobType" name="DesireJobType" required>
+            <select id="desireJobType" name="desireJobType" required>
               <option value="">選択してください</option>
               <option value="frontend">フロントエンドエンジニア（UI/UX設計、React等）</option>
               <option value="backend">バックエンドエンジニア（API設計、データベース管理）</option>
