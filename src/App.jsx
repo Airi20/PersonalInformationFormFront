@@ -34,9 +34,10 @@ function App() {
       return response.json();
     })
     .then(data => {
-      console.log('サーバーからの返答:', JSON.stringify(data, null, 2));
+      console.log('サーバーからの返答:', data.message);
       setIsSubmitted(true);
     })
+
 
     .catch(error => {
       console.error('エラー:', error);
