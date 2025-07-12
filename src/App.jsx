@@ -11,10 +11,45 @@ function App() {
 
     const formData = {
       name: form.name.value,
+      furigana: form.furigana.value,
+      birth: form.birth.value,
+      gender: form.gender.value,
       email: form.email.value,
-      confirmEmail: confirmEmail,
-      // 必要なら他のフィールドもここで拾う
+      tel: form.tel.value,
+      address: form.address.value,
+      job: form.job.value,
+      education: form.education.value,
+      qualification: form.qualification.value,
+      hobby: form.hobby.value,
+      skill: form.skill.value,
+      sns: form.sns.value,
+      website: form.website.value,
+      contactMethod: form.contactMethod.value,
+      contactTime: form.contactTime.value,
+      emergencyContact: form.emergencyContact.value,
+      health: form.health.value,
+      allergy: form.allergy.value,
+      emergencyAction: form.emergencyAction.value,
+      family: form.family.value,
+      familyHealth: form.familyHealth.value,
+      familyAllergy: form.familyAllergy.value,
+      familyEmergencyContact: form.familyEmergencyContact.value,
+      hobbySkill: form.hobbySkill.value,
+      selfIntro: form.selfIntro.value,
+      selfPR: form.selfPR.value,
+      desireJobType: form.DesireJobType.value,
+      internshipExperience: form.InternshipExperience.value,
+      programmingExperience: form.programmingExperience.value,
+      programmingLanguageUsed: form.ProgrammingLanguageUsed.value,
+      yearsOfExperience: form.YearsOfExperience.value,
+      programmingLanguageUsed2: form.ProgrammingLanguageUsed2.value,
+      yearsOfExperience2: form.YearsOfExperience2.value,
+      frameworks: form.frameworks.value,
+      github: form.github.value,
+      others: form.others.value,
+      confirmEmail: confirmEmail
     };
+
 
     console.log("送信されたデータ：", JSON.stringify(formData, null, 2));
 
