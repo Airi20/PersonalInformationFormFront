@@ -371,7 +371,7 @@ function App() {
         {data === null ? (
           "Loading..."
         ) : data.length === 0 ? (
-          "⚠️未記入の項目があります😱"
+          "GGC株式会社（ゴリゴリコーディング株式会社）　だるい日は仕事しないで寝てよう　緩く働ける会社　気が向いたら仕事引き受けます　社員募集中"
         ) : (
           <pre>{JSON.stringify(data, null, 2)}</pre>
         )}
